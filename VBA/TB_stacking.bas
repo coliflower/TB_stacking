@@ -327,7 +327,7 @@ Private Function TabellenSpalte( _
     ByVal tbl As ListObject, _
     ByVal spaltenName As String) As Long
 
-    Dim spalte As listColumn
+    Dim spalte As ListColumn
 
     On Error Resume Next
     Set spalte = tbl.ListColumns(spaltenName)
@@ -687,4 +687,3 @@ Private Function GetNamedRange( _
     End If
 
 End Function
-
